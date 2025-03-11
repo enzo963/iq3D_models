@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Digital Cultural Heritage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Contact Us</h1>
+        <p>Get in touch with our team</p>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About the Project</a></li>
+            <li><a href="index.html#gallery">Gallery</a></li>
+            <li><a href="index.html#team">Our Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact-section">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <!-- Member 1 -->
+                <div class="profile-card">
+                    <img src="photo/mon.jpg" alt="Mondher Ahmed Abdulilah" class="profile-img">
+                    <div class="profile-info">
+                        <h3>Mondher Abdulilah</h3>
+                        <p class="department">Computer Science Department</p>
+                        <p class="college">College of Computer Science and Mathematics</p>
+                        <p class="email">Email: mondher@example.com</p>
+                    </div>
+                </div>
+
+                <!-- Member 2 -->
+                <div class="profile-card">
+                    <img src="team/member2.webp" alt="Abdulrahman Younis" class="profile-img">
+                    <div class="profile-info">
+                        <h3>Abdulrahman Younis</h3>
+                        <p class="department">Architecture Department</p>
+                        <p class="college">College of Engineering</p>
+                        <p class="email">Email: abdulrahman@example.com</p>
+                    </div>
+                </div>
+
+                <!-- Member 3 -->
+                <div class="profile-card">
+                    <img src="photo/moh.jpg" alt="Muheimin Ghazi" class="profile-img">
+                    <div class="profile-info">
+                        <h3>Muheimin Ghazi</h3>
+                        <p class="department">Archaeology Department</p>
+                        <p class="college">College of Arts</p>
+                        <p class="email">Email: muheimin@example.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>All rights reserved © <span id="currentYear"></span> University of Mosul</p>
+    </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

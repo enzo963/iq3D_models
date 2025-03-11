@@ -1,0 +1,10 @@
+/* style.css */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #e67e22;
+    --text-color: #2c3e50;
+    --background: #f9f9f9;
+    --card-radius: 15px;
+    --shadow: 0 4px 15px rgba(0,0,0,0.1);
+}

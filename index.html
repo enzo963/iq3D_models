@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Cultural Heritage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+   
+</head>
+<body>
+    <header class="main-header">
+        <h1>Digital Cultural Heritage Project</h1>
+        <p>Preserving Cultural Legacy Through Modern Technology</p>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About the Project</a></li>
+            <li><a href="index.html#gallery">Gallery</a></li>
+            <li><a href="index.html#team">Our Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>The Importance of Digitization</h2>
+            <div class="content-box">
+                <p>Digitizing cultural heritage is a crucial step in:</p>
+                <ul>
+                    <li>Preserving the historical identity of nations</li>
+                    <li>Enabling scientific research through digital means</li>
+                    <li>Providing global access to cultural heritage</li>
+                    <li>Digitally reconstructing destroyed monuments</li>
+                    <li>Creating a sustainable digital archive for future generations</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2>Digital Models Gallery</h2>
+            <div class="gallery-grid">
+                <!-- Model 1 -->
+                <a href="model1.html" class="model-card">
+                    <img src="photo_models/M1.png" alt="Wall Relief" loading="lazy">
+                    <div class="model-info">
+                        <h3>Wall Relief</h3>
+                        <span class="category">Architectural Model</span>
+                    </div>
+                </a>
+
+                <!-- Model 2 -->
+                <a href="model2.html" class="model-card">
+                    <img src="photo_models/M2.png" alt="House Facade" loading="lazy">
+                    <div class="model-info">
+                        <h3>House Facade</h3>
+                        <span class="category">Digital Reconstruction</span>
+                    </div>
+                </a>
+
+                <!-- Model 3 -->
+                <a href="model3.html" class="model-card">
+                    <img src="photo_models/M3.png" alt="Interior Space" loading="lazy">
+                    <div class="model-info">
+                        <h3>Interior Space</h3>
+                        <span class="category">Digital Reconstruction</span>
+                    </div>
+                </a>
+
+                <!-- Model 4 -->
+                <a href="model4.html" class="model-card">
+                    <img src="photo_models/M4.jpg" alt="Al Sa'aa Catholic Church" loading="lazy">
+                    <div class="model-info">
+                        <h3>Al Sa'aa Catholic Church</h3>
+                        <span class="category">Digital Reconstruction</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <!-- Member 1 -->
+                <div class="profile-card">
+                    <img src="photo/mon.jpg" alt="Mondher Ahmed Abdulilah" class="profile-img">
+                    <div class="profile-info">
+                        <h3>Mondher Abdulilah</h3>
+                        <p class="department">Computer Science Department</p>
+                        <p class="college">College of Computer Science and Mathematics</p>
+                    </div>
+                </div>
+
+                <!-- Member 2 -->
+                <div class="profile-card">
+                    <img src="photo/abd.jpg" alt="Abdulrahman Younis" class="profile-img">
+                    <div class="profile-info">
+                        <h3>Abdulrahman Younis</h3>
+                        <p class="department">Architecture Department</p>
+                        <p class="college">College of Engineering</p>
+                    </div>
+                </div>
+
+                <!-- Member 3 -->
+                <div class="profile-card">
+                    <img src="photo/moh.jpg" alt="Muheimin Ghazi" class="profile-img">
+                    <div class="profile-info">
+                        <h3>Muheimin Ghazi</h3>
+                        <p class="department">Archaeology Department</p>
+                        <p class="college">College of Arts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <p>All rights reserved © <span id="currentYear"></span> University of Mosul</p>
+    </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
